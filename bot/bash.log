@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/guan/桌面/qqbot/bot/./bot.py", line 4, in <module>
+    import nonebot
+ModuleNotFoundError: No module named 'nonebot'
