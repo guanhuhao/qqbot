@@ -41,3 +41,12 @@ nonebot.run就是正式运行nonebot,这里需要设置ip地址以及端口号,�
 python bot.py
 ```
 如果没有大问题的话应该能看到几行输出,但是此时NoneBot还不能正常工作,原因在于我们可以看到上述[图1](#1),我们目前已经完成了Nonebot部分的最小可行模型,但是我们还缺少OneBot来负责中间通信,因此下面我们将搭建OneBot的环境.
+
+## go-cqhttp配置
+从[github项目](https://github.com/Mrs4s/go-cqhttp/releases/)中下载对应的release版本go-cqhttp,解压后使用命令行运行对应的可执行文件,第一次运行时会出现下面的选项:
+![](./pic/2.png)
+这里选择方式三,之后会生成配置文件config.yml,然后我们编辑配置文件(如设置关联bot的QQ号,密码),Nonebot服务器IP地址端口号
+配置账号:
+![](./pic/3.jpg)
+配置服务器地址(如:ws://127.0.0.1:8080):
+![](./pic/4.jpg)
