@@ -1,2 +1,4 @@
 bot/gocqhtp/config.hjson
 bot/bot_config.py
+config.yml
+.DS_Store
